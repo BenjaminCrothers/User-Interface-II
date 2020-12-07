@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+    box-sizing:border-box; /*this rule says, if I give an element a width I want it to respect that width - if I add padding or a border, apply it within the width given not in addition to it*/
+    border:1px solid grey;
+    max-width:100%; /*this says you can never be bigger than your parent*/
+}/*General Styles*/ 
+html{
+    font-size:62.5%;
+    background-color:#3d4849;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+    color:#4F4F4F;
+  margin:2%;
+  background-color:white;
+}
+h1{
+    font-family:cursive;
+    font-size:5rem;
+}
+span{
+    font-weight:bold;
+}
+a{
+    text-decoration:none;
+  color:black;
+}
+section{
+    padding:4% 0;
+}
+
+h2{
+  font-size:3rem;
+  padding:1%;
+  margin:2%;
+}
+h3{
+  font-size:2rem;
+}
+header{
+  width:100%;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  background-color:lightgrey;
+  }
+h1{
+  font-family:serif;
+  font-size:5rem;
+  color:white;
+  background-color:#4f4f4f;
+}
+header nav{
+  display:flex;
+
+  justify-content:space-evenly;
+}
+header nav a{
+  padding:1%;
+  margin:.5%;
+  width:10%;
+  border-radius:10px;
+  text-align:center;
+  background-color:#536878;
+  border:4px solid #5d6578;
+  color:white;
+}
+.body{
+  display:flex;
+  flex-flow:column;
+}
+.upper-body{
+  display:flex;
+  justify-content:center;
+  margin:2%;
+}
+.picture{
+  width:30%;
+}
+#fun{
+  height:100%;
+  width:100%;
+}
+#me{
+  padding:.5%;
+  margin:4% 1.5%;
+  height:20%;
+  transform:rotate(-20deg)
+}
+.intro{
+  display:flex;
+  flex-flow:column;
+}
+.upper-body a{
+  padding:1%;
+  margin:2%;
+}
+.upper-body p{
+  font-family:serif;
+  padding:1%;
+  margin:2%;
+}
+.lower-body{
+  position:center;
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-evenly;
+}
+.lower-body a{
+  text-decoration:none; 
+  border:2px solid blue;
+  background: url("https://picsum.photos/200/300");
+  background-repeat:no-repeat;
+  background-position:center;
+  text-align:center;
+  color:red;
+  width:45.5%;
+  padding:15%;
+  margin:2%;
+}
+footer{
+  display:flex;
+  justify-content:space-evenly;
+  background-color:#4f4f4f;
+  color:white;
+}
+.contact{
+  display:flex;
+  flex-flow:column;
+}
+.personal{
+  display:flex;
+  flex-flow:column;
+}
+footer a{
+  color:white;
+}
