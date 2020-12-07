@@ -52,6 +52,8 @@ section{
 
 h2{
   font-size:3rem;
+  padding:1%;
+  margin:2%;
 }
 h3{
   font-size:2rem;
@@ -93,23 +95,31 @@ header nav a{
   justify-content:center;
   margin:2%;
 }
+.picture{
+  width:30%;
+}
 #fun{
-  height:20vh;
-  width:35%;
-  margin:3%;
-  background: url(https://benjamincrothers.me/assets/images/party-kid-698x970.jpg);
+  height:100%;
+  width:100%;
 }
 #me{
   padding:.5%;
-  margin-left:5%;
+  margin:4% 1.5%;
+  height:20%;
   transform:rotate(-20deg)
 }
 .intro{
   display:flex;
   flex-flow:column;
 }
+.upper-body a{
+  padding:1%;
+  margin:2%;
+}
 .upper-body p{
   font-family:serif;
+  padding:1%;
+  margin:2%;
 }
 .lower-body{
   position:center;
