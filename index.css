@@ -133,6 +133,7 @@ header nav a{
   background: url("https://picsum.photos/200/300");
   background-repeat:no-repeat;
   background-position:center;
+  background-size:contain;
   text-align:center;
   color:red;
   width:45.5%;
