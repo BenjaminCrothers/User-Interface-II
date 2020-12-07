@@ -129,12 +129,14 @@ header nav a{
 }
 .lower-body a{
   text-decoration:none; 
-  border:2px blue;
+  border:2px solid blue;
   background: url("https://picsum.photos/200/300");
   background-repeat:no-repeat;
+  background-position:center;
+  text-align:center;
   color:red;
-  width:40vw;
-  padding:2%;
+  width:45.5%;
+  padding:15%;
   margin:2%;
 }
 footer{
@@ -144,8 +146,13 @@ footer{
   color:white;
 }
 .contact{
-  
+  display:flex;
+  flex-flow:column;
 }
 .personal{
-  
+  display:flex;
+  flex-flow:column;
+}
+footer a{
+  color:white;
 }
